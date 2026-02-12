@@ -6,6 +6,7 @@ body{
     align-items: center;
     flex-direction: column;
     font-family: Inter;
+    overflow: hidden;
 }
 .card{
     background-color: hsl(0, 0%, 12%);
@@ -16,6 +17,7 @@ body{
     border-radius: 10px;
     padding: 30px;
     min-width: 300px;
+    padding-bottom: 15px;
 }
 .image-container{
    
@@ -64,5 +66,9 @@ button{
     font-size: 11px;
     text-align: center;
     margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0;
+    color: aliceblue;
  }
 .attribution a { color: hsl(228, 45%, 44%); }
